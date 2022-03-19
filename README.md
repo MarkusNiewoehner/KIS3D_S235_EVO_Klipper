@@ -1,5 +1,5 @@
 ### Welcome to the Klipper configuration for the KIS3D S235 EVO tripple Z
-#### *this is a private repository, it has no relation to the printer manufacturer*
+#### *this is a private repository, it has no relation to the printer manufacturer!*
 ![](https://github.com/MarkusNiewoehner/KIS3D_S235_EVO_Klipper/blob/main/images/S235EVO.png)
 <br>
 `<link>` : <http://kis3d.de>
