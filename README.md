@@ -20,7 +20,7 @@
 - intelligent macro for PID tuning. Typ in the temp - under 90°C it will attemped Bed PID, above - Extruder PID
 ------------
 ##### Install manual for the backupscript:
-usbmount install on Raspberry Pi
+***usbmount install on Raspberry Pi***
 
 
     sudo apt update
@@ -31,52 +31,52 @@ usbmount install on Raspberry Pi
         edit usbmount.conf 
         sudo nano /etc/usbmount/usbmount.conf
 
-find this:
+***find this:***
 
 
      FS_MOUNTOPTIONS=""
 
-edit to:
+***edit to:***
 
 
     FS_MOUNTOPTIONS="-fstype=vfat,gid=users,dmask=0007,fmask=0111"
 
-open this:
+***open this:***
 
 
     sudo nano /lib/systemd/system/systemd-udevd.service
 
-find this:
+***find this:***
 
 
      PrivateMounts=yes
-edit to:
+***edit to:***
 
 
     PrivateMounts=no
-System reboot:
+***System reboot:***
 
 
     sudo reboot
 
-switch to pi home and create the  backup script file
+***switch to pi home and create the  backup script file***
 
 
     cd /home/pi
         sudo nano backup-klipper.sh
-paste into this script:
+***paste into this script:***
 
 
     #!/bin/bash
         tar -cPvf /media/usb/backup-klipper_`date +"%Y-%m-%d_%H-%M"`.tar /home/pi/klipper_config
         exit 0
-it is just a suggestion, the directories can be further customized
+***it is just a suggestion, the directories can be further customized***
 
-make the script executeable
+***make the script executeable***
 
 
     sudo chmod +x backup-klipper.sh 
-paste this macro into your printer.cfg
+***paste this macro into your printer.cfg***
 
 
     [gcode_shell_command backup_klipper]
@@ -90,5 +90,5 @@ paste this macro into your printer.cfg
 
 
 
-in mainsail you will now see the "backup" button in the macros, you can press this to save, you can see the output in the console.
-if you don't want any output, remove the "v" from "tar -cPvf" in the shellscript.
+***in mainsail you will now see the "backup" button in the macros, you can press this to save, you can see the output in the console.
+if you don't want any output, remove the "v" from "tar -cPvf" in the shellscript.***
