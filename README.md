@@ -9,6 +9,7 @@
 ##### Hardware configuration on which this klipper config is based:
 - SKR Pro1.2 & TMC2209
 - Raspberry 4b
+- BTT PiTFT Display
 - 4 Channel Relay to manage Fans and LED
 - X, Y Axis LDO 42STH48-2504AC 1,8° stepper
 - Bondtech LGX lite Extruder
