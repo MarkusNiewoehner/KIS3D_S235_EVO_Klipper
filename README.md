@@ -9,14 +9,14 @@
 ##### Hardware configuration on which this klipper config is based:
 - SKR Pro1.2 & TMC2209
 - Raspberry 4b
-- BTT PiTFT Display
+- BTT PiTFT Display with KlipperScreen
 - 4 Channel Relay to manage Fans and LED
 - X, Y Axis LDO 42STH48-2504AC 1,8° stepper
 - Bondtech LGX lite Extruder
 - Phaetus BMO dragonfly Hotend
 - ADXL345 accelometer for input shaping
 - Lerdge Relay Module for shutdown mains after print and cooldown
-- Backupfunction macro to USB Stick for all config files
+- Backupfunction macro, backup to USB Stick for all config files
 - intelligent macro for PID tuning. Typ in the temp - under 90°C it will attemped Bed PID, above - Extruder PID
 ------------
 ##### Install manual for the backupscript:
