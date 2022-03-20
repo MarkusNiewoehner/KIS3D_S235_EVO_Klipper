@@ -96,7 +96,7 @@ if you don't want any output, remove the "v" from "tar -cPvf" in the shellscript
 
 ------------
 
-##### easy creation of diagrams with input_shaper to examine the resonance and optimize the printer (loose parts, loose belts...)
+### easy creation of diagrams with input_shaper to examine the resonance and optimize the printer (loose parts, loose belts...)
 ![](https://github.com/MarkusNiewoehner/KIS3D_S235_EVO_Klipper/blob/main/images/macro.png)
 ![](https://github.com/MarkusNiewoehner/KIS3D_S235_EVO_Klipper/blob/main/images/console.png)
 ![](https://github.com/MarkusNiewoehner/KIS3D_S235_EVO_Klipper/blob/main/images/graph.png)
