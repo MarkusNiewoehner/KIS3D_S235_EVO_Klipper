@@ -14,7 +14,7 @@
 - X, Y Axis LDO 42STH48-2504AC 1,8° stepper
 - Bondtech LGX lite Extruder
 - Phaetus BMO dragonfly Hotend
-- ADXL345 accelometer for input shaping
+- ADXL345 accelerometer for input shaping
 - Lerdge Relay Module for shutdown mains after print and cooldown
 - Backupfunction macro, backup to USB Stick for all config files
 - intelligent macro for PID tuning. Typ in the temp - under 90°C it will attemped Bed PID, above - Extruder PID
