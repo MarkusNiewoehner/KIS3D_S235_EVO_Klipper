@@ -18,6 +18,7 @@
 - Lerdge Relay Module for shutdown mains after print and cooldown
 - Backupfunction macro, backup to USB Stick for all config files
 - intelligent macro for PID tuning. Typ in the temp - under 90°C it will attemped Bed PID, above - Extruder PID
+- support for generating shaper graphs to analyzise resonace testing with input_shaper
 ------------
 ##### Install manual for the backupscript:
 ***usbmount install on Raspberry Pi***
