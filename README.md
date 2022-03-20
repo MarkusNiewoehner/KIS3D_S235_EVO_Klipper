@@ -101,3 +101,7 @@ if you don't want any output, remove the "v" from "tar -cPvf" in the shellscript
 ![](https://github.com/MarkusNiewoehner/KIS3D_S235_EVO_Klipper/blob/main/images/console_.png)
 ![](https://github.com/MarkusNiewoehner/KIS3D_S235_EVO_Klipper/blob/main/images/graph.png)
 ###### Thanks to ratOS where I got the shaper-graph generate shell scripts!
+
+------------
+ #### *Suggestions for improvement or contributions are welcome! *
+ ------------
