@@ -12,6 +12,7 @@
 - BTT PiTFT Display with KlipperScreen
 - 4 Channel Relay to manage Fans and LED
 - X, Y Axis LDO 42STH48-2504AC 1,8° stepper
+- Z Axis MybotOnline 17LS16-1505E-310J
 - Bondtech LGX lite Extruder
 - Phaetus BMO dragonfly Hotend
 - ADXL345 accelerometer for input shaping
@@ -19,8 +20,10 @@
 - Backupfunction macro, backup to USB Stick for all config files
 - intelligent macro for PID tuning. Typ in the temp - under 90°C it will attemped Bed PID, above - Extruder PID
 - support for generating shaper graphs to analyzise resonace testing with input_shaper
+- start, park, print, end macros
 ------------
 ##### Install manual for the backupscript:
+###### always remember that klipper does a lot of writing to a micro sd card and these standard sd cards are not made for that. backups are important!
 ***usbmount install on Raspberry Pi***
 
 
