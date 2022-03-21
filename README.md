@@ -23,7 +23,7 @@
 - start, park, print, end macros
 ------------
 ##### Install manual for the backupscript:
-###### always remember that klipper does a lot of writing to a micro sd card and these standard sd cards are not made for that. backups are important!
+###### *always remember that klipper does a lot of writing to a micro sd card and these standard sd cards are not made for that. backups are important!*
 ***usbmount install on Raspberry Pi***
 
 
