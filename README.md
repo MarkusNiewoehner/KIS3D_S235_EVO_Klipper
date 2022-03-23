@@ -28,12 +28,12 @@
 
 
     sudo apt update
-        sudo apt dist-upgrade
+    sudo apt dist-upgrade
         
-        sudo apt install usbmount
+    sudo apt install usbmount
         
-        edit usbmount.conf 
-        sudo nano /etc/usbmount/usbmount.conf
+    edit usbmount.conf 
+    sudo nano /etc/usbmount/usbmount.conf
 
 ***find this:***
 
