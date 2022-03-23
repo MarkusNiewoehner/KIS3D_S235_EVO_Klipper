@@ -32,7 +32,8 @@
         
     sudo apt install usbmount
         
-    edit usbmount.conf 
+***edit usbmount.conf***
+
     sudo nano /etc/usbmount/usbmount.conf
 
 ***find this:***
